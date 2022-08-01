@@ -44,13 +44,13 @@ CREATE TABLE "sizes" (
 CREATE TABLE "pictures" (
 	"id" serial PRIMARY KEY,
 	"mainPicture" TEXT NOT NULL,
-	"aPicture" TEXT NOT NULL,
-	"bPicture" TEXT NOT NULL,
-	"cPicture" TEXT NOT NULL,
-	"dPicture" TEXT NOT NULL,
-	"ePicture" TEXT NOT NULL,
-	"fPicture" TEXT NOT NULL,
-	"gPicture" TEXT NOT NULL
+	"picture1" TEXT NOT NULL,
+	"picture2" TEXT NOT NULL,
+	"picture3" TEXT NOT NULL,
+	"picture4" TEXT NOT NULL,
+	"picture5" TEXT NOT NULL,
+	"picture6" TEXT NOT NULL,
+	"picture7" TEXT NOT NULL
 );
 
 
