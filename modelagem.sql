@@ -69,7 +69,7 @@ CREATE TABLE "products" (
 CREATE TABLE "purchaseStatuses" (
 	"id" serial PRIMARY KEY,
 	"name" TEXT NOT NULL,
-	"lastUpdate" TIMESTAMP NOT NULL
+	"lastUpdate" TIMESTAMP NOT NULL DEFAULT NOW()
 );
 
 
